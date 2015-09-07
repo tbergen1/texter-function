@@ -26,16 +26,15 @@ function sendText(recipient, callback) {
     	if (err) {
     		console.log(err.message);
     	}
+    	return callback(null);
 	});
-
-	return callback(null);
 };
 
-if(timing = 45) {
+/*if(timing = 45) {
 	state.index = 
 	state.complete = 
 	state.
-}
+}*/
 
 var timing = setInterval(timer, 1000);
 
