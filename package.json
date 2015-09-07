@@ -1,0 +1,16 @@
+{
+  "name": "texter-function",
+  "version": "1.0.0",
+  "description": "Simple texting function using Twilio",
+  "main": "index.js",
+  "dependencies": {
+    "twilio": "^2.3.0",
+    "async": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Bergen",
+  "license": "ISC"
+}
